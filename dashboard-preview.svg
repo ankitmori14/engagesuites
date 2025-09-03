@@ -1,0 +1,196 @@
+<svg width="600" height="400" viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="600" height="400" rx="16" fill="#f8f9fa"/>
+  <rect width="600" height="400" rx="16" fill="url(#dashboardGradient)" opacity="0.05"/>
+  
+  <!-- Header Bar -->
+  <rect width="600" height="60" rx="16" fill="white"/>
+  <rect y="60" width="600" height="340" fill="white" rx="0"/>
+  
+  <!-- Header Content -->
+  <rect x="20" y="20" width="120" height="20" rx="4" fill="url(#primaryGradient)"/>
+  <text x="25" y="33" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="white">EngageSuites</text>
+  
+  <!-- Navigation Pills -->
+  <rect x="200" y="22" width="60" height="16" rx="8" fill="url(#primaryGradient)" opacity="0.1"/>
+  <text x="215" y="32" font-family="Inter, sans-serif" font-size="10" font-weight="500" fill="#2c4bff">Dashboard</text>
+  
+  <rect x="280" y="22" width="50" height="16" rx="8" fill="#f1f3f4"/>
+  <text x="292" y="32" font-family="Inter, sans-serif" font-size="10" font-weight="500" fill="#666">Posts</text>
+  
+  <rect x="350" y="22" width="60" height="16" rx="8" fill="#f1f3f4"/>
+  <text x="365" y="32" font-family="Inter, sans-serif" font-size="10" font-weight="500" fill="#666">Analytics</text>
+  
+  <!-- User Avatar -->
+  <circle cx="550" cy="30" r="15" fill="url(#primaryGradient)"/>
+  <text x="545" y="35" font-family="Inter, sans-serif" font-size="10" font-weight="600" fill="white">JD</text>
+  
+  <!-- Main Content Area -->
+  <g transform="translate(20, 80)">
+    <!-- Stats Cards Row -->
+    <rect width="130" height="80" rx="12" fill="white" stroke="#e1e5e9" stroke-width="1"/>
+    <rect x="150" width="130" height="80" rx="12" fill="white" stroke="#e1e5e9" stroke-width="1"/>
+    <rect x="300" width="130" height="80" rx="12" fill="white" stroke="#e1e5e9" stroke-width="1"/>
+    <rect x="450" width="110" height="80" rx="12" fill="white" stroke="#e1e5e9" stroke-width="1"/>
+    
+    <!-- Card 1 - Followers -->
+    <circle cx="25" cy="25" r="8" fill="rgba(44, 75, 255, 0.1)"/>
+    <path d="M 21 21 L 29 21 L 29 29 L 21 29 Z" fill="none" stroke="#2c4bff" stroke-width="1.5"/>
+    <path d="M 25 23 C 26 23, 27 24, 27 25 C 27 26, 26 27, 25 27 C 24 27, 23 26, 23 25 C 23 24, 24 23, 25 23" fill="#2c4bff"/>
+    <text x="15" y="50" font-family="Inter, sans-serif" font-size="18" font-weight="700" fill="#1a1a1a">24.5K</text>
+    <text x="15" y="65" font-family="Inter, sans-serif" font-size="10" font-weight="500" fill="#666">Total Followers</text>
+    <text x="100" y="25" font-family="Inter, sans-serif" font-size="10" font-weight="600" fill="#4ecdc4">+12%</text>
+    
+    <!-- Card 2 - Engagement -->
+    <circle cx="175" cy="25" r="8" fill="rgba(255, 107, 107, 0.1)"/>
+    <path d="M 171 21 L 179 21 L 179 29 L 171 29 Z" fill="none" stroke="#ff6b6b" stroke-width="1.5"/>
+    <path d="M 175 23 L 177 25 L 175 27 L 173 25 Z" fill="#ff6b6b"/>
+    <text x="165" y="50" font-family="Inter, sans-serif" font-size="18" font-weight="700" fill="#1a1a1a">8.2%</text>
+    <text x="165" y="65" font-family="Inter, sans-serif" font-size="10" font-weight="500" fill="#666">Engagement Rate</text>
+    <text x="250" y="25" font-family="Inter, sans-serif" font-size="10" font-weight="600" fill="#4ecdc4">+5%</text>
+    
+    <!-- Card 3 - Posts -->
+    <circle cx="325" cy="25" r="8" fill="rgba(78, 205, 196, 0.1)"/>
+    <rect x="321" y="21" width="8" height="8" rx="2" fill="none" stroke="#4ecdc4" stroke-width="1.5"/>
+    <line x1="323" y1="23" x2="327" y2="23" stroke="#4ecdc4" stroke-width="1"/>
+    <line x1="323" y1="25" x2="327" y2="25" stroke="#4ecdc4" stroke-width="1"/>
+    <line x1="323" y1="27" x2="325" y2="27" stroke="#4ecdc4" stroke-width="1"/>
+    <text x="315" y="50" font-family="Inter, sans-serif" font-size="18" font-weight="700" fill="#1a1a1a">156</text>
+    <text x="315" y="65" font-family="Inter, sans-serif" font-size="10" font-weight="500" fill="#666">Posts This Month</text>
+    <text x="400" y="25" font-family="Inter, sans-serif" font-size="10" font-weight="600" fill="#4ecdc4">+23</text>
+    
+    <!-- Card 4 - Reach -->
+    <circle cx="475" cy="25" r="8" fill="rgba(255, 193, 7, 0.1)"/>
+    <circle cx="475" cy="25" r="3" fill="none" stroke="#ffc107" stroke-width="1.5"/>
+    <path d="M 475 19 L 477 21 M 475 19 L 473 21 M 481 25 L 479 23 M 481 25 L 479 27 M 475 31 L 477 29 M 475 31 L 473 29 M 469 25 L 471 23 M 469 25 L 471 27" stroke="#ffc107" stroke-width="1"/>
+    <text x="465" y="50" font-family="Inter, sans-serif" font-size="18" font-weight="700" fill="#1a1a1a">89K</text>
+    <text x="465" y="65" font-family="Inter, sans-serif" font-size="10" font-weight="500" fill="#666">Total Reach</text>
+    <text x="530" y="25" font-family="Inter, sans-serif" font-size="10" font-weight="600" fill="#4ecdc4">+8%</text>
+  </g>
+  
+  <!-- Chart Section -->
+  <g transform="translate(20, 180)">
+    <!-- Chart Container -->
+    <rect width="360" height="180" rx="12" fill="white" stroke="#e1e5e9" stroke-width="1"/>
+    
+    <!-- Chart Header -->
+    <text x="20" y="30" font-family="Inter, sans-serif" font-size="14" font-weight="600" fill="#1a1a1a">Engagement Overview</text>
+    <text x="20" y="45" font-family="Inter, sans-serif" font-size="11" font-weight="400" fill="#666">Last 7 days</text>
+    
+    <!-- Chart Area -->
+    <g transform="translate(40, 60)">
+      <!-- Grid Lines -->
+      <line x1="0" y1="0" x2="300" y2="0" stroke="#f1f3f4" stroke-width="1"/>
+      <line x1="0" y1="25" x2="300" y2="25" stroke="#f1f3f4" stroke-width="1"/>
+      <line x1="0" y1="50" x2="300" y2="50" stroke="#f1f3f4" stroke-width="1"/>
+      <line x1="0" y1="75" x2="300" y2="75" stroke="#f1f3f4" stroke-width="1"/>
+      <line x1="0" y1="100" x2="300" y2="100" stroke="#f1f3f4" stroke-width="1"/>
+      
+      <!-- Chart Line -->
+      <path d="M 0 80 L 50 60 L 100 45 L 150 35 L 200 50 L 250 30 L 300 25" 
+            fill="none" stroke="url(#primaryGradient)" stroke-width="3" stroke-linecap="round"/>
+      
+      <!-- Chart Area Fill -->
+      <path d="M 0 80 L 50 60 L 100 45 L 150 35 L 200 50 L 250 30 L 300 25 L 300 100 L 0 100 Z" 
+            fill="url(#chartGradient)" opacity="0.1"/>
+      
+      <!-- Data Points -->
+      <circle cx="0" cy="80" r="3" fill="white" stroke="#2c4bff" stroke-width="2"/>
+      <circle cx="50" cy="60" r="3" fill="white" stroke="#2c4bff" stroke-width="2"/>
+      <circle cx="100" cy="45" r="3" fill="white" stroke="#2c4bff" stroke-width="2"/>
+      <circle cx="150" cy="35" r="3" fill="white" stroke="#2c4bff" stroke-width="2"/>
+      <circle cx="200" cy="50" r="3" fill="white" stroke="#2c4bff" stroke-width="2"/>
+      <circle cx="250" cy="30" r="3" fill="white" stroke="#2c4bff" stroke-width="2"/>
+      <circle cx="300" cy="25" r="3" fill="white" stroke="#2c4bff" stroke-width="2"/>
+      
+      <!-- Y-axis Labels -->
+      <text x="-10" y="5" font-family="Inter, sans-serif" font-size="9" font-weight="400" fill="#888" text-anchor="end">100</text>
+      <text x="-10" y="30" font-family="Inter, sans-serif" font-size="9" font-weight="400" fill="#888" text-anchor="end">75</text>
+      <text x="-10" y="55" font-family="Inter, sans-serif" font-size="9" font-weight="400" fill="#888" text-anchor="end">50</text>
+      <text x="-10" y="80" font-family="Inter, sans-serif" font-size="9" font-weight="400" fill="#888" text-anchor="end">25</text>
+      <text x="-10" y="105" font-family="Inter, sans-serif" font-size="9" font-weight="400" fill="#888" text-anchor="end">0</text>
+      
+      <!-- X-axis Labels -->
+      <text x="0" y="120" font-family="Inter, sans-serif" font-size="9" font-weight="400" fill="#888" text-anchor="middle">Mon</text>
+      <text x="50" y="120" font-family="Inter, sans-serif" font-size="9" font-weight="400" fill="#888" text-anchor="middle">Tue</text>
+      <text x="100" y="120" font-family="Inter, sans-serif" font-size="9" font-weight="400" fill="#888" text-anchor="middle">Wed</text>
+      <text x="150" y="120" font-family="Inter, sans-serif" font-size="9" font-weight="400" fill="#888" text-anchor="middle">Thu</text>
+      <text x="200" y="120" font-family="Inter, sans-serif" font-size="9" font-weight="400" fill="#888" text-anchor="middle">Fri</text>
+      <text x="250" y="120" font-family="Inter, sans-serif" font-size="9" font-weight="400" fill="#888" text-anchor="middle">Sat</text>
+      <text x="300" y="120" font-family="Inter, sans-serif" font-size="9" font-weight="400" fill="#888" text-anchor="middle">Sun</text>
+    </g>
+  </g>
+  
+  <!-- Recent Posts Section -->
+  <g transform="translate(400, 180)">
+    <!-- Posts Container -->
+    <rect width="180" height="180" rx="12" fill="white" stroke="#e1e5e9" stroke-width="1"/>
+    
+    <!-- Posts Header -->
+    <text x="20" y="25" font-family="Inter, sans-serif" font-size="14" font-weight="600" fill="#1a1a1a">Recent Posts</text>
+    
+    <!-- Post Items -->
+    <g transform="translate(20, 40)">
+      <!-- Post 1 -->
+      <rect width="140" height="32" rx="6" fill="#f8f9fa"/>
+      <circle cx="12" cy="16" r="6" fill="url(#primaryGradient)"/>
+      <text x="8" y="20" font-family="Inter, sans-serif" font-size="8" font-weight="600" fill="white">FB</text>
+      <text x="25" y="14" font-family="Inter, sans-serif" font-size="9" font-weight="500" fill="#333">New product launch post</text>
+      <text x="25" y="24" font-family="Inter, sans-serif" font-size="8" font-weight="400" fill="#666">2 hours ago • 24 likes</text>
+      
+      <!-- Post 2 -->
+      <g transform="translate(0, 37)">
+        <rect width="140" height="32" rx="6" fill="#f8f9fa"/>
+        <circle cx="12" cy="16" r="6" fill="#000000"/>
+        <text x="9" y="20" font-family="Inter, sans-serif" font-size="8" font-weight="600" fill="white">𝕏</text>
+        <text x="25" y="14" font-family="Inter, sans-serif" font-size="9" font-weight="500" fill="#333">Industry insights thread</text>
+        <text x="25" y="24" font-family="Inter, sans-serif" font-size="8" font-weight="400" fill="#666">4 hours ago • 12 reposts</text>
+      </g>
+      
+      <!-- Post 3 -->
+      <g transform="translate(0, 74)">
+        <rect width="140" height="32" rx="6" fill="#f8f9fa"/>
+        <circle cx="12" cy="16" r="6" fill="#ff0000"/>
+        <text x="7" y="20" font-family="Inter, sans-serif" font-size="8" font-weight="600" fill="white">YT</text>
+        <text x="25" y="14" font-family="Inter, sans-serif" font-size="9" font-weight="500" fill="#333">Product demo video</text>
+        <text x="25" y="24" font-family="Inter, sans-serif" font-size="8" font-weight="400" fill="#666">1 day ago • 245 views</text>
+      </g>
+      
+      <!-- Post 4 -->
+      <g transform="translate(0, 111)">
+        <rect width="140" height="32" rx="6" fill="#f8f9fa"/>
+        <circle cx="12" cy="16" r="6" fill="#e4405f"/>
+        <text x="8" y="20" font-family="Inter, sans-serif" font-size="8" font-weight="600" fill="white">IG</text>
+        <text x="25" y="14" font-family="Inter, sans-serif" font-size="9" font-weight="500" fill="#333">Behind the scenes</text>
+        <text x="25" y="24" font-family="Inter, sans-serif" font-size="8" font-weight="400" fill="#666">2 days ago • 89 likes</text>
+      </g>
+    </g>
+  </g>
+  
+  <!-- Floating Action Button -->
+  <circle cx="540" cy="340" r="25" fill="url(#primaryGradient)" filter="url(#buttonShadow)"/>
+  <path d="M 535 340 L 545 340 M 540 335 L 540 345" stroke="white" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Gradient Definitions -->
+  <defs>
+    <linearGradient id="primaryGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2c4bff;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#1e3adb;stop-opacity:1"/>
+    </linearGradient>
+    
+    <linearGradient id="dashboardGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2c4bff;stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:#4ecdc4;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#44a08d;stop-opacity:1"/>
+    </linearGradient>
+    
+    <linearGradient id="chartGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#2c4bff;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#2c4bff;stop-opacity:0"/>
+    </linearGradient>
+    
+    <filter id="buttonShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#2c4bff" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+</svg>

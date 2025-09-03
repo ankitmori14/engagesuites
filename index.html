@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EngageSuites - Social Media Management Platform</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="icon" type="image/png" href="favicon-16x16.png">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <span class="logo-text">
+                        <span class="logo-engage">Engage</span><span class="logo-suites">Suites</span>
+                    </span>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle">
+                            Features
+                            <i class="fas fa-chevron-down"></i>
+                        </a>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item">
+                                <i class="fas fa-plus-circle"></i>
+                                <div class="dropdown-item-content">
+                                    <span class="dropdown-item-title">Create</span>
+                                    <span class="dropdown-item-desc">Build your own library of content ideas</span>
+                                </div>
+                            </a>
+                            <a href="#" class="dropdown-item">
+                                <i class="fas fa-paper-plane"></i>
+                                <div class="dropdown-item-content">
+                                    <span class="dropdown-item-title">Publish</span>
+                                    <span class="dropdown-item-desc">Plan and schedule your content across social media
+                                        platforms</span>
+                                </div>
+                            </a>
+                            <a href="#" class="dropdown-item">
+                                <i class="fas fa-chart-line"></i>
+                                <div class="dropdown-item-content">
+                                    <span class="dropdown-item-title">Analyze</span>
+                                    <span class="dropdown-item-desc">Measure performance and turn insights into
+                                        growth</span>
+                                </div>
+                            </a>
+                            <a href="#" class="dropdown-item">
+                                <i class="fas fa-users"></i>
+                                <div class="dropdown-item-content">
+                                    <span class="dropdown-item-title">Collaborate</span>
+                                    <span class="dropdown-item-desc">Work together seamlessly, from planning to
+                                        publishing</span>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle">
+                            Platforms
+                            <i class="fas fa-chevron-down"></i>
+                        </a>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item">
+                                <i class="fab fa-instagram"></i>
+                                <div class="dropdown-item-content">
+                                    <span class="dropdown-item-title">Instagram</span>
+                                    <span class="dropdown-item-desc">Share photos, stories, and reels with your
+                                        audience</span>
+                                </div>
+                            </a>
+                            <a href="#" class="dropdown-item">
+                                <i class="fab fa-facebook"></i>
+                                <div class="dropdown-item-content">
+                                    <span class="dropdown-item-title">Facebook</span>
+                                    <span class="dropdown-item-desc">Connect with friends and grow your community</span>
+                                </div>
+                            </a>
+                            <a href="#" class="dropdown-item">
+                                <i class="fab fa-twitter"></i>
+                                <div class="dropdown-item-content">
+                                    <span class="dropdown-item-title">Twitter</span>
+                                    <span class="dropdown-item-desc">Share thoughts and engage in real-time
+                                        conversations</span>
+                                </div>
+                            </a>
+                            <a href="#" class="dropdown-item">
+                                <i class="fab fa-youtube"></i>
+                                <div class="dropdown-item-content">
+                                    <span class="dropdown-item-title">YouTube</span>
+                                    <span class="dropdown-item-desc">Create and share video content with the
+                                        world</span>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                    <li><a href="#" class="nav-link">Pricing</a></li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle">
+                            Resources
+                            <i class="fas fa-chevron-down"></i>
+                        </a>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item">
+                                <i class="fas fa-blog"></i>
+                                <div class="dropdown-item-content">
+                                    <span class="dropdown-item-title">Blogs</span>
+                                    <span class="dropdown-item-desc">Read insights, tips, and industry updates</span>
+                                </div>
+                            </a>
+                            <a href="#" class="dropdown-item">
+                                <i class="fas fa-users"></i>
+                                <div class="dropdown-item-content">
+                                    <span class="dropdown-item-title">Community</span>
+                                    <span class="dropdown-item-desc">Connect with other creators and marketers</span>
+                                </div>
+                            </a>
+                            <a href="#" class="dropdown-item">
+                                <i class="fas fa-headset"></i>
+                                <div class="dropdown-item-content">
+                                    <span class="dropdown-item-title">Support</span>
+                                    <span class="dropdown-item-desc">Get help and find answers to your questions</span>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                    <li><a href="#" class="nav-link">About</a></li>
+                </ul>
+                <div class="nav-actions">
+                    <a href="#" class="btn-login">Log in</a>
+                    <a href="#" class="btn-primary">Get started</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg-pattern"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i class="fas fa-rocket"></i>
+                    <span>Trusted by 160,000+ businesses</span>
+                </div>
+                <h1 class="hero-title">
+                    Grow your audience on
+                    <span class="gradient-text">social and beyond</span>
+                </h1>
+                <p class="hero-description">
+                    EngageSuites helps you build an audience organically. We're a values-driven company that provides
+                    affordable, intuitive marketing tools for ambitious people and teams.
+                </p>
+                <div class="hero-actions">
+                    <a href="#" class="btn-primary btn-large">
+                        <i class="fas fa-play"></i>
+                        Get started for free
+                    </a>
+                    <a href="#" class="btn-secondary btn-large">
+                        <i class="fas fa-video"></i>
+                        See how it works
+                    </a>
+                </div>
+                <div class="hero-features">
+                    <div class="hero-feature">
+                        <i class="fas fa-check-circle"></i>
+                        <span>No credit card required</span>
+                    </div>
+                    <div class="hero-feature">
+                        <i class="fas fa-users"></i>
+                        <span>14-day free trial</span>
+                    </div>
+                    <div class="hero-feature">
+                        <i class="fas fa-headset"></i>
+                        <span>24/7 support</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-image-container">
+                    <div class="floating-card card-1">
+                        <i class="fab fa-x"></i>
+                        <span>+24% engagement</span>
+                    </div>
+                    <div class="floating-card card-2">
+                        <i class="fab fa-instagram"></i>
+                        <span>1.2K new followers</span>
+                    </div>
+                    <div class="floating-card card-3">
+                        <i class="fab fa-youtube"></i>
+                        <span>245K video views</span>
+                    </div>
+                    <div class="floating-card card-4">
+                        <i class="fab fa-facebook"></i>
+                        <span>Posts scheduled</span>
+                    </div>
+                    <img src="dashboard-preview.svg" alt="EngageSuites Dashboard">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Everything you need to build your audience</h2>
+                <p>EngageSuites has all the tools you need to start, grow, and monetize your audience—all in one place.
+                </p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <div class="icon-wrapper publishing">
+                            <i class="fas fa-calendar-alt"></i>
+                        </div>
+                    </div>
+                    <h3>Publishing</h3>
+                    <p>Plan, create, and publish content that drives meaningful engagement and growth across all your
+                        social channels.</p>
+                    <div class="feature-stats">
+                        <div class="stat">
+                            <span class="stat-number">10x</span>
+                            <span class="stat-label">Faster posting</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <div class="icon-wrapper analytics">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                    </div>
+                    <h3>Analytics</h3>
+                    <p>Analyze your performance with clear, visual reports that help you understand what's working and
+                        what's not.</p>
+                    <div class="feature-stats">
+                        <div class="stat">
+                            <span class="stat-number">95%</span>
+                            <span class="stat-label">Data accuracy</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <div class="icon-wrapper engagement">
+                            <i class="fas fa-comments"></i>
+                        </div>
+                    </div>
+                    <h3>Engagement</h3>
+                    <p>Build relationships with your audience by responding to comments and messages across all your
+                        social accounts.</p>
+                    <div class="feature-stats">
+                        <div class="stat">
+                            <span class="stat-number">3x</span>
+                            <span class="stat-label">Better response time</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Media Integration Section -->
+    <section class="social-integration">
+        <div class="container">
+            <div class="social-integration-content">
+                <h3>Connect your favorite accounts</h3>
+                <div class="social-platforms">
+                    <div class="platform-icon">
+                        <i class="fab fa-facebook-f"></i>
+                    </div>
+                    <div class="platform-icon">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                    <div class="platform-icon">
+                        <i class="fab fa-linkedin-in"></i>
+                    </div>
+                    <div class="platform-icon">
+                        <i class="fab fa-mastodon"></i>
+                    </div>
+                    <div class="platform-icon">
+                        <i class="fab fa-pinterest-p"></i>
+                    </div>
+                    <div class="platform-icon">
+                        <i class="fas fa-at"></i>
+                    </div>
+                    <div class="platform-icon">
+                        <i class="fab fa-tiktok"></i>
+                    </div>
+                    <div class="platform-icon">
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                    <div class="platform-icon">
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                    <div class="platform-icon">
+                        <i class="fab fa-google"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Content Generation Section -->
+    <section class="ai-content-generation">
+        <div class="container">
+            <div class="ai-content-wrapper">
+                <div class="ai-content-text">
+                    <div class="ai-badge">
+                        <i class="fas fa-magic"></i>
+                        <span>AI-Powered</span>
+                    </div>
+                    <h3>Generate content with AI</h3>
+                    <p>Let our AI assistant help you create engaging posts, captions, and content ideas tailored to your
+                        brand voice and audience preferences.</p>
+                    <div class="ai-features">
+                        <div class="ai-feature">
+                            <i class="fas fa-lightbulb"></i>
+                            <span>Smart content suggestions</span>
+                        </div>
+                        <div class="ai-feature">
+                            <i class="fas fa-language"></i>
+                            <span>Multi-language support</span>
+                        </div>
+                        <div class="ai-feature">
+                            <i class="fas fa-hashtag"></i>
+                            <span>Trending hashtag recommendations</span>
+                        </div>
+                    </div>
+                    <a href="#" class="btn-primary">
+                        <i class="fas fa-robot"></i>
+                        Try AI Assistant
+                    </a>
+                </div>
+                <div class="ai-content-visual">
+                    <div class="ai-demo-card">
+                        <div class="ai-demo-header">
+                            <i class="fas fa-robot"></i>
+                            <span>AI Content Assistant</span>
+                        </div>
+                        <div class="ai-demo-content">
+                            <div class="ai-prompt">
+                                <span class="prompt-label">You:</span>
+                                <span class="prompt-text">"Create a post about sustainable living"</span>
+                            </div>
+                            <div class="ai-response">
+                                <span class="response-label">AI:</span>
+                                <div class="response-text">
+                                    <p>🌱 Small changes, big impact! Here are 3 simple ways to live more sustainably:
+                                    </p>
+                                    <p>✨ Switch to reusable water bottles<br>
+                                        ♻️ Start composting kitchen scraps<br>
+                                        🚲 Choose walking or biking for short trips</p>
+                                    <div class="suggested-hashtags">
+                                        #SustainableLiving #EcoFriendly #GreenLifestyle
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Media Scheduler Section -->
+    <section class="social-scheduler">
+        <div class="container">
+            <div class="section-header">
+                <div class="scheduler-badge">
+                    <i class="fas fa-calendar-check"></i>
+                    <span>All-in-One Platform</span>
+                </div>
+                <h2>Your all-in-one social media scheduler and AI assistant</h2>
+                <p>Everything you need to create, manage, and grow your social media presence from a single, powerful
+                    platform.</p>
+            </div>
+
+            <div class="scheduler-features-grid">
+                <div class="scheduler-feature">
+                    <div class="scheduler-feature-icon">
+                        <div class="icon-wrapper create">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                    </div>
+                    <h3>Create, generate, and design</h3>
+                    <p>Build stunning visual content with our design tools, generate ideas with AI, and create posts
+                        that capture attention across all platforms.</p>
+                    <div class="feature-highlights">
+                        <div class="highlight">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Built-in design editor</span>
+                        </div>
+                        <div class="highlight">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Template library</span>
+                        </div>
+                        <div class="highlight">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Brand kit integration</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="scheduler-feature">
+                    <div class="scheduler-feature-icon">
+                        <div class="icon-wrapper ai-assistant">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                    </div>
+                    <h3>Get help from our AI assistant</h3>
+                    <p>Let AI handle the heavy lifting with smart content suggestions, caption writing, hashtag
+                        recommendations, and optimal posting times.</p>
+                    <div class="feature-highlights">
+                        <div class="highlight">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Smart content generation</span>
+                        </div>
+                        <div class="highlight">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Caption optimization</span>
+                        </div>
+                        <div class="highlight">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Trending hashtags</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="scheduler-feature">
+                    <div class="scheduler-feature-icon">
+                        <div class="icon-wrapper inbox">
+                            <i class="fas fa-inbox"></i>
+                        </div>
+                    </div>
+                    <h3>Manage all your accounts with inbox from one place</h3>
+                    <p>Centralize all your social media interactions. Respond to comments, messages, and mentions across
+                        platforms without switching tabs.</p>
+                    <div class="feature-highlights">
+                        <div class="highlight">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Unified inbox</span>
+                        </div>
+                        <div class="highlight">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Smart filtering</span>
+                        </div>
+                        <div class="highlight">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Team assignments</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="scheduler-feature">
+                    <div class="scheduler-feature-icon">
+                        <div class="icon-wrapper schedule">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                    </div>
+                    <h3>Schedule posts ahead of time</h3>
+                    <p>Plan your content calendar weeks in advance. Set it and forget it with our reliable scheduling
+                        system that never misses a post.</p>
+                    <div class="feature-highlights">
+                        <div class="highlight">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Bulk scheduling</span>
+                        </div>
+                        <div class="highlight">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Calendar view</span>
+                        </div>
+                        <div class="highlight">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Auto-posting</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="scheduler-feature">
+                    <div class="scheduler-feature-icon">
+                        <div class="icon-wrapper engage">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                    </div>
+                    <h3>Engage with your audience</h3>
+                    <p>Build meaningful relationships with your followers. Monitor mentions, respond quickly, and turn
+                        conversations into loyal customers.</p>
+                    <div class="feature-highlights">
+                        <div class="highlight">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Real-time monitoring</span>
+                        </div>
+                        <div class="highlight">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Quick responses</span>
+                        </div>
+                        <div class="highlight">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Sentiment tracking</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="scheduler-feature">
+                    <div class="scheduler-feature-icon">
+                        <div class="icon-wrapper workflow">
+                            <i class="fas fa-users-cog"></i>
+                        </div>
+                    </div>
+                    <h3>Collaborate and approve with advance workflow</h3>
+                    <p>Streamline your team's content creation process with approval workflows, role-based permissions,
+                        and collaborative editing tools.</p>
+                    <div class="feature-highlights">
+                        <div class="highlight">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Approval workflows</span>
+                        </div>
+                        <div class="highlight">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Team collaboration</span>
+                        </div>
+                        <div class="highlight">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Content review</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Best Time to Post Section -->
+            <div class="best-time-section">
+                <div class="best-time-content">
+                    <div class="best-time-text">
+                        <h3>The Best Time to Post on Social Media</h3>
+                        <p>Take the guesswork out of timing. Our AI analyzes your audience behavior and suggests optimal
+                            posting times for maximum engagement across all platforms.</p>
+                        <div class="timing-features">
+                            <div class="timing-feature">
+                                <i class="fas fa-chart-line"></i>
+                                <div class="timing-feature-content">
+                                    <span class="timing-title">Smart Analytics</span>
+                                    <span class="timing-desc">AI-powered insights into your audience's activity
+                                        patterns</span>
+                                </div>
+                            </div>
+                            <div class="timing-feature">
+                                <i class="fas fa-target"></i>
+                                <div class="timing-feature-content">
+                                    <span class="timing-title">Platform Optimization</span>
+                                    <span class="timing-desc">Customized timing recommendations for each social
+                                        platform</span>
+                                </div>
+                            </div>
+                            <div class="timing-feature">
+                                <i class="fas fa-sync-alt"></i>
+                                <div class="timing-feature-content">
+                                    <span class="timing-title">Auto-Scheduling</span>
+                                    <span class="timing-desc">Automatically schedule posts at peak engagement
+                                        times</span>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="btn-primary">
+                            <i class="fas fa-clock"></i>
+                            Discover Your Best Times
+                        </a>
+                    </div>
+                    <div class="best-time-visual">
+                        <div class="timing-chart">
+                            <div class="chart-header">
+                                <h4>Your Audience Activity</h4>
+                                <div class="chart-legend">
+                                    <div class="legend-item">
+                                        <div class="legend-color high"></div>
+                                        <span>High engagement</span>
+                                    </div>
+                                    <div class="legend-item">
+                                        <div class="legend-color medium"></div>
+                                        <span>Medium engagement</span>
+                                    </div>
+                                    <div class="legend-item">
+                                        <div class="legend-color low"></div>
+                                        <span>Low engagement</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="chart-grid">
+                                <div class="chart-days">
+                                    <span>Mon</span>
+                                    <span>Tue</span>
+                                    <span>Wed</span>
+                                    <span>Thu</span>
+                                    <span>Fri</span>
+                                    <span>Sat</span>
+                                    <span>Sun</span>
+                                </div>
+                                <div class="chart-hours">
+                                    <div class="hour-row">
+                                        <div class="hour-cell low"></div>
+                                        <div class="hour-cell medium"></div>
+                                        <div class="hour-cell high"></div>
+                                        <div class="hour-cell high"></div>
+                                        <div class="hour-cell medium"></div>
+                                        <div class="hour-cell low"></div>
+                                        <div class="hour-cell low"></div>
+                                    </div>
+                                    <div class="hour-row">
+                                        <div class="hour-cell medium"></div>
+                                        <div class="hour-cell high"></div>
+                                        <div class="hour-cell high"></div>
+                                        <div class="hour-cell high"></div>
+                                        <div class="hour-cell high"></div>
+                                        <div class="hour-cell medium"></div>
+                                        <div class="hour-cell low"></div>
+                                    </div>
+                                    <div class="hour-row">
+                                        <div class="hour-cell low"></div>
+                                        <div class="hour-cell medium"></div>
+                                        <div class="hour-cell high"></div>
+                                        <div class="hour-cell medium"></div>
+                                        <div class="hour-cell low"></div>
+                                        <div class="hour-cell low"></div>
+                                        <div class="hour-cell low"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="optimal-times">
+                                <div class="optimal-time">
+                                    <i class="fab fa-instagram"></i>
+                                    <span class="platform">Instagram</span>
+                                    <span class="time">2:00 PM - 4:00 PM</span>
+                                </div>
+                                <div class="optimal-time">
+                                    <i class="fab fa-facebook"></i>
+                                    <span class="platform">Facebook</span>
+                                    <span class="time">1:00 PM - 3:00 PM</span>
+                                </div>
+                                <div class="optimal-time">
+                                    <i class="fab fa-linkedin"></i>
+                                    <span class="platform">LinkedIn</span>
+                                    <span class="time">8:00 AM - 10:00 AM</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="cta-bg-pattern"></div>
+        <div class="container">
+            <div class="cta-content">
+                <div class="cta-icon">
+                    <i class="fas fa-rocket"></i>
+                </div>
+                <h2>Ready to supercharge your social media?</h2>
+                <p>Join over 160,000 small businesses using EngageSuites to build their brand on social media.</p>
+                <div class="cta-actions">
+                    <a href="#" class="btn-primary btn-large cta-btn">
+                        <i class="fas fa-play"></i>
+                        Start your free trial
+                    </a>
+                    <div class="cta-features">
+                        <div class="cta-feature">
+                            <i class="fas fa-check"></i>
+                            <span>14-day free trial</span>
+                        </div>
+                        <div class="cta-feature">
+                            <i class="fas fa-check"></i>
+                            <span>No credit card required</span>
+                        </div>
+                        <div class="cta-feature">
+                            <i class="fas fa-check"></i>
+                            <span>Cancel anytime</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <span class="footer-logo-text">
+                            <span class="footer-logo-engage">Engage</span><span class="footer-logo-suites">Suites</span>
+                        </span>
+                    </div>
+                    <p>EngageSuites helps you build an audience organically.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="#">Publishing</a></li>
+                        <li><a href="#">Analytics</a></li>
+                        <li><a href="#">Engagement</a></li>
+                        <li><a href="#">Start Page</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Social Media Calendar</a></li>
+                        <li><a href="#">Content Library</a></li>
+                        <li><a href="#">Free Tools</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 EngageSuites. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Enhanced logo interactivity
+        document.addEventListener('DOMContentLoaded', function () {
+            const navLogo = document.querySelector('.nav-logo');
+            const footerLogo = document.querySelector('.footer-logo');
+
+            // Add click animation to logos
+            function addLogoClickEffect(logoElement) {
+                if (!logoElement) return;
+
+                logoElement.addEventListener('click', function (e) {
+                    e.preventDefault();
+
+                    // Add a temporary class for click animation
+                    this.classList.add('logo-clicked');
+
+                    // Create ripple effect
+                    const ripple = document.createElement('div');
+                    ripple.className = 'logo-ripple';
+                    this.appendChild(ripple);
+
+                    // Remove the effect after animation
+                    setTimeout(() => {
+                        this.classList.remove('logo-clicked');
+                        if (ripple.parentNode) {
+                            ripple.parentNode.removeChild(ripple);
+                        }
+                    }, 600);
+                });
+
+                // Add hover sound effect (optional - can be enabled)
+                logoElement.addEventListener('mouseenter', function () {
+                    // Subtle visual feedback on hover
+                    this.style.transform = 'scale(1.02)';
+                });
+
+                logoElement.addEventListener('mouseleave', function () {
+                    this.style.transform = 'scale(1)';
+                });
+            }
+
+            addLogoClickEffect(navLogo);
+            addLogoClickEffect(footerLogo);
+
+            // Add scroll-based logo animation
+            let lastScrollY = window.scrollY;
+
+            window.addEventListener('scroll', function () {
+                const currentScrollY = window.scrollY;
+                const scrollDelta = Math.abs(currentScrollY - lastScrollY);
+
+                if (navLogo && scrollDelta > 5) {
+                    // Add subtle bounce effect when scrolling
+                    navLogo.style.animation = 'logoScrollBounce 0.3s ease-out';
+
+                    setTimeout(() => {
+                        if (navLogo) {
+                            navLogo.style.animation = '';
+                        }
+                    }, 300);
+                }
+
+                lastScrollY = currentScrollY;
+            });
+
+            // Dropdown functionality
+            const dropdowns = document.querySelectorAll('.dropdown');
+
+            dropdowns.forEach(dropdown => {
+                const dropdownToggle = dropdown.querySelector('.dropdown-toggle');
+                const dropdownMenu = dropdown.querySelector('.dropdown-menu');
+
+                // Add hover events
+                dropdown.addEventListener('mouseenter', function () {
+                    this.classList.add('active');
+                });
+
+                dropdown.addEventListener('mouseleave', function () {
+                    this.classList.remove('active');
+                });
+
+                // Handle click events for mobile
+                dropdownToggle.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    dropdown.classList.toggle('active');
+                });
+            });
+
+            // Close dropdowns when clicking outside
+            document.addEventListener('click', function (e) {
+                if (!e.target.closest('.dropdown')) {
+                    dropdowns.forEach(dropdown => {
+                        dropdown.classList.remove('active');
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
