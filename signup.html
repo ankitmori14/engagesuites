@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - EngageSuites</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="icon" type="image/png" href="favicon-16x16.png">
+</head>
+
+<body class="auth-body">
+    <!-- Compact Header -->
+    <header class="auth-header">
+        <div class="auth-nav">
+            <div class="nav-logo">
+                <a href="index.html" class="logo-link">
+                    <span class="logo-text">
+                        <span class="logo-engage">Engage</span><span class="logo-suites">Suites</span>
+                    </span>
+                </a>
+            </div>
+            <div class="auth-nav-links">
+                <span class="auth-nav-text">Already have an account?</span>
+                <a href="login.html" class="btn-primary-sm">Sign in</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Auth Container -->
+    <main class="auth-main">
+        <div class="auth-wrapper">
+            <!-- Signup Form Side -->
+            <div class="auth-card signup-card">
+                <div class="auth-card-header">
+                    <div class="welcome-icon">
+                        <i class="fas fa-user-plus"></i>
+                    </div>
+                    <h1 class="auth-title">Create account</h1>
+                    <p class="auth-subtitle">Start your 14-day free trial</p>
+                </div>
+
+                <form class="auth-form">
+                    <!-- Social Signup First -->
+                    <div class="social-login-section">
+                        <div class="social-buttons-row">
+                            <button type="button" class="btn-social-compact btn-google">
+                                <i class="fab fa-google"></i>
+                                Google
+                            </button>
+                            <button type="button" class="btn-social-compact btn-facebook">
+                                <i class="fab fa-facebook-f"></i>
+                                Facebook
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="divider-compact">
+                        <span>or create with email</span>
+                    </div>
+
+                    <!-- Form Fields -->
+                    <div class="form-fields">
+                        <!-- Name Row -->
+                        <div class="form-row-compact">
+                            <div class="form-group-compact">
+                                <div class="input-wrapper-compact">
+                                    <i class="fas fa-user input-icon-compact"></i>
+                                    <input type="text" id="firstName" name="firstName" class="form-input-compact" placeholder="First name" required>
+                                </div>
+                            </div>
+                            <div class="form-group-compact">
+                                <div class="input-wrapper-compact">
+                                    <i class="fas fa-user input-icon-compact"></i>
+                                    <input type="text" id="lastName" name="lastName" class="form-input-compact" placeholder="Last name" required>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Email -->
+                        <div class="form-group-compact">
+                            <div class="input-wrapper-compact">
+                                <i class="fas fa-envelope input-icon-compact"></i>
+                                <input type="email" id="email" name="email" class="form-input-compact" placeholder="Email address" required>
+                            </div>
+                        </div>
+
+                        <!-- Password -->
+                        <div class="form-group-compact">
+                            <div class="input-wrapper-compact">
+                                <i class="fas fa-lock input-icon-compact"></i>
+                                <input type="password" id="password" name="password" class="form-input-compact" placeholder="Create password" required>
+                                <button type="button" class="password-toggle-compact" onclick="togglePassword('password')">
+                                    <i class="fas fa-eye"></i>
+                                </button>
+                            </div>
+                            <div class="password-strength">
+                                <div class="strength-indicator">
+                                    <div class="strength-bar" id="strengthBar"></div>
+                                </div>
+                                <span class="strength-text" id="strengthText">Enter password</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Terms Checkbox -->
+                    <div class="terms-section">
+                        <label class="checkbox-wrapper">
+                            <input type="checkbox" id="terms" name="terms" required>
+                            <span class="checkbox-custom"></span>
+                            <span class="checkbox-text">
+                                I agree to the <a href="terms-conditions.html" target="_blank">Terms</a> and <a href="privacy-policy.html" target="_blank">Privacy Policy</a>
+                            </span>
+                        </label>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <button type="submit" class="btn-auth-primary">
+                        Create account
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+
+                    <!-- Newsletter Opt-in -->
+                    <div class="newsletter-section">
+                        <label class="checkbox-wrapper">
+                            <input type="checkbox" id="newsletter" name="newsletter">
+                            <span class="checkbox-custom"></span>
+                            <span class="checkbox-text">Send me tips and product updates</span>
+                        </label>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Visual Side -->
+            <div class="auth-visual signup-visual">
+                <div class="visual-content">
+                    <div class="visual-header">
+                        <h2>Join 160,000+ creators</h2>
+                        <p>Everything you need to grow your social presence</p>
+                    </div>
+                    
+                    <div class="benefits-list">
+                        <div class="benefit-item">
+                            <div class="benefit-icon">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <div class="benefit-content">
+                                <h4>14-day free trial</h4>
+                                <p>No credit card required</p>
+                            </div>
+                        </div>
+                        <div class="benefit-item">
+                            <div class="benefit-icon">
+                                <i class="fas fa-rocket"></i>
+                            </div>
+                            <div class="benefit-content">
+                                <h4>Instant setup</h4>
+                                <p>Get started in minutes</p>
+                            </div>
+                        </div>
+                        <div class="benefit-item">
+                            <div class="benefit-icon">
+                                <i class="fas fa-headset"></i>
+                            </div>
+                            <div class="benefit-content">
+                                <h4>24/7 support</h4>
+                                <p>We're here to help</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="feature-preview">
+                        <div class="preview-card">
+                            <div class="preview-header">
+                                <span>What you'll get:</span>
+                            </div>
+                            <div class="preview-features">
+                                <span><i class="fas fa-calendar-check"></i> Content scheduling</span>
+                                <span><i class="fas fa-chart-bar"></i> Performance analytics</span>
+                                <span><i class="fas fa-users"></i> Team collaboration</span>
+                                <span><i class="fas fa-robot"></i> AI content assistant</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        function togglePassword(inputId) {
+            const input = document.getElementById(inputId);
+            const icon = input.parentElement.querySelector('.password-toggle-compact i');
+            
+            if (input.type === 'password') {
+                input.type = 'text';
+                icon.classList.remove('fa-eye');
+                icon.classList.add('fa-eye-slash');
+            } else {
+                input.type = 'password';
+                icon.classList.remove('fa-eye-slash');
+                icon.classList.add('fa-eye');
+            }
+        }
+
+        // Password strength checker
+        document.getElementById('password').addEventListener('input', function(e) {
+            const password = e.target.value;
+            const strengthBar = document.getElementById('strengthBar');
+            const strengthText = document.getElementById('strengthText');
+            
+            let strength = 0;
+            let text = 'Weak';
+            let color = '#e53e3e';
+            
+            if (password.length >= 8) strength += 1;
+            if (/[A-Z]/.test(password)) strength += 1;
+            if (/[0-9]/.test(password)) strength += 1;
+            if (/[^A-Za-z0-9]/.test(password)) strength += 1;
+            
+            if (password.length === 0) {
+                text = 'Enter password';
+                color = '#cbd5e0';
+                strength = 0;
+            } else if (strength < 2) {
+                text = 'Weak';
+                color = '#e53e3e';
+            } else if (strength < 3) {
+                text = 'Fair';
+                color = '#dd6b20';
+            } else if (strength < 4) {
+                text = 'Good';
+                color = '#38a169';
+            } else {
+                text = 'Strong';
+                color = '#25a05d';
+            }
+            
+            strengthBar.style.width = (strength * 25) + '%';
+            strengthBar.style.backgroundColor = color;
+            strengthText.textContent = text;
+            strengthText.style.color = color;
+        });
+
+        // Form submission
+        document.querySelector('.auth-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            console.log('Signup form submitted');
+        });
+    </script>
+</body>
+
+</html>
